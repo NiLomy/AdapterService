@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: adapter-service
+
+open-weather:
+  url: https://api.openweathermap.org/data/2.5/weather
+  key: {your key}
+  main-key: main
+  temp-key: temp
+
+weather:
+  temperature:
+    kelvin: 273
+  languages: [ "ru" ]
+
+service-b:
+  url: {your url}
